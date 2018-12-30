@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LaNier - Lab 6</title>
+    <script>
+        var fahrenheit = 0;
+        var celsius = 0;
+        do {
+            fahrenheit = prompt("Enter Fahrenheit temperature: ");
+
+            if ((fahrenheit < -100) || (fahrenheit > 212) || isNaN(fahrenheit)) {
+                alert("You entered: " + fahrenheit + "\nPlease enter a number in the range of -100 to 212.");
+            }
+
+            else {
+                fahrenheit = parseInt(fahrenheit);
+                //celsius = (fahrenheit - 32) * 0.5556;
+                celsius = parseFloat((fahrenheit - 32) * (5 / 9)).toFixed(0);
+            }
+
+        } while ((fahrenheit < -100) || (fahrenheit > 212) || isNaN(fahrenheit))
+    </script>
+</head>
+<body>
+<h1>Fahrenheit converted to Celsius:</h1>
+<script type="text/javascript">
+    document.write("<p>Temperature in Fahrenheit: " + fahrenheit + "</p>");
+    document.write("<p>Converted to Celsius: " + celsius + "</p>");
+</script>
+</body>
+</html>

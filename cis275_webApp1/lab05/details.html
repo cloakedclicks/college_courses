@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LaNier - Lab 5</title>
+    <link rel="stylesheet" href="styles/details.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="styles/details.css">
+    <link rel="stylesheet" type="text/css" href="styles/slicknav.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#nav_menu').slicknav({prependTo: "#mobile_menu"});
+        });
+    </script>
+</head>
+
+<body>
+<header>
+    <img src="images/image.jpg" alt="Anime Title Picture">
+    <h1>What is Japanese Animation</h1>
+    <h2>Why we should watch and appreciate it!</h2>
+</header>
+<nav id="mobile_menu"></nav>
+<nav id="nav_menu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="thebeginning.html">The Beginning</a></li>
+        <li><a href="details.html" class="current">Details</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <figure>
+            <figcaption><h2>Favorite Anime Details</h2></figcaption>
+            <table>
+                <thead>
+                <tr>
+                    <th scope="col">Title</th>
+                    <th scope="col">Genre</th>
+                    <th scope="col">Year Released</th>
+                    <th scope="col">MyAnimeList Rating</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Code Geass</td>
+                    <td>Sci-Fi</td>
+                    <td>(2006)</td>
+                    <td>8.80</td>
+                </tr>
+                <tr>
+                    <td>Wolf Children</td>
+                    <td>Slice of Life</td>
+                    <td>(2012)</td>
+                    <td>8.80</td>
+                </tr>
+                <tr>
+                    <td>One Punch Man</td>
+                    <td>Seinen</td>
+                    <td>(2015)</td>
+                    <td>8.75</td>
+                </tr>
+                <tr>
+                    <td>My Neighbor Totoro</td>
+                    <td>Adventure</td>
+                    <td>(1988)</td>
+                    <td>8.46</td>
+                </tr>
+                <tr>
+                    <td>My Hero Academy</td>
+                    <td>Shounen</td>
+                    <td>(2016)</td>
+                    <td>8.41</td>
+                </tr>
+                <tr>
+                    <td>Ghost in the Shell</td>
+                    <td>Seinen</td>
+                    <td>(1995)</td>
+                    <td>8.34</td>
+                </tr>
+                <tr>
+                    <td>Durarara!!</td>
+                    <td>Mystery</td>
+                    <td>(2010)</td>
+                    <td>8.33</td>
+                </tr>
+                <tr>
+                    <td>Fairy Tail</td>
+                    <td>Shounen</td>
+                    <td>(2014)</td>
+                    <td>8.18</td>
+                </tr>
+                <tr>
+                    <td>Big Windup!</td>
+                    <td>Sports</td>
+                    <td>(2007)</td>
+                    <td>8.08</td>
+                </tr>
+                </tbody>
+            </table>
+        </figure>
+    </section>
+    <aside>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/History_of_anime">History of Anime</a></li>
+            <li><a href="http://www.studioghibli.com.au/celebratestudioghibli/">Studio Ghibli</a></li>
+            <li><a href="voltron.html">Ready to form Voltron v2!</a></li>
+        </ul>
+    </aside>
+</main>
+
+<footer>
+    <p>&copy; 2017, Robert LaNier</p>
+</footer>
+
+</body>
+</html>

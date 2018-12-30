@@ -1,0 +1,12 @@
+.wrapper {
+    width: 350px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.page-header {
+    text-align: center;
+}
+.help-block {
+    font-weight: bold;;
+    font-size: 85%;
+}

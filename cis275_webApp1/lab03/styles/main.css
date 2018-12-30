@@ -1,0 +1,172 @@
+/* the reset selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* the styles for the elements */
+html {
+background-color: darkgray;
+}
+
+body {
+    font-family: "Franklin Gothic Medium", "Segoe UI", sans-serif;
+    font-size: 100%;
+    width: 960px;
+    border: 3px solid dodgerblue;
+    border-radius: 15px;
+    box-shadow: 7px 7px 3px;
+    margin: 15px auto;
+    background-color: white;
+}
+/* style links that have the focus or mouse hovering on them */
+a:hover, a:focus {
+    color: red;
+}
+
+/* the styles for the header */
+header {
+    padding: 1.5em 0 4.5em 0;
+    border-bottom: 1px solid dodgerblue;
+}
+
+header img {
+    float: left;
+    padding: 0 30px;
+}
+
+/* the styles for the section */
+main {
+    clear: left;
+    padding: 0 30px;
+}
+
+main h1 {
+    font-size: 150%;
+    padding: .3em 0;
+    background-color: white;
+}
+
+main h2 {
+    padding: .5em 0 .25em 0;
+
+}
+
+main h2:first-child::first-letter {
+    font-size: 150%;
+}
+
+main h3 {
+    padding-bottom: .5em;
+}
+
+main p {
+    padding-bottom: 1em;
+}
+
+main ul {
+    padding: 0 0 .50em 1.25em;
+}
+
+/* horizontal navigation menu */
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#nav_menu ul li {
+    float: left;
+    width: 25%;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px solid dodgerblue;
+}
+
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+#nav_menu ul li a.current {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+/* styles for the section */
+section {
+    float: right;
+    width: 70%;
+}
+
+figure img {
+
+}
+figure {
+    float: left;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+/* styles for the aside */
+aside {
+    float: left;
+    width: 30%;
+    padding-top: 1.30em;
+}
+
+aside ul {
+    list-style-type: none;
+    margin-right: 15%;
+}
+
+aside ul li {
+    width: 98%;
+    margin-bottom: .9em;
+    border: solid 1px dodgerblue;
+    border-radius: 10px;
+    box-shadow: 7px 7px 3px;
+    background-color: dodgerblue;
+}
+
+aside ul li a {
+    display: block;
+    padding: .5em .7em .5em 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+aside ul li a:hover, aside ul li a:focus {
+    background-color: #e0e0e0;
+    color: black;
+    width: 86.5%;
+    border-radius: 9px;
+}
+
+/* the styles for the footer */
+footer {
+    border-top: 1px solid dodgerblue;
+    font-size: 80%;
+    clear: both;
+}
+
+footer p {
+  /*  margin-top: 1em; */
+    text-align: center;
+    padding: .7em 0;
+    background-image: -moz-linear-gradient(30deg, dodgerblue 0%, dodgerblue 30%, white 50%, dodgerblue 80%, dodgerblue 100%);
+    background-image: -webkit-linear-gradient(30deg, dodgerblue 0%, dodgerblue 30%, white 50%, dodgerblue 80%, dodgerblue 100%);
+    background-image: -o-linear-gradient(30deg, dodgerblue 0%, dodgerblue 30%, white 50%, dodgerblue 80%, dodgerblue 100%);
+    background-image: linear-gradient(30deg, dodgerblue 0%, dodgerblue 30%, white 50%, dodgerblue 80%, dodgerblue 100%);
+}
